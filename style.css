@@ -1,0 +1,15 @@
+body {
+  background-color: red;
+}
+
+h1 {
+  color: black;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
+
+p {
+  color: black;
+  font-weight: normal;
+  font-family: "Poppins", serif;
+}
