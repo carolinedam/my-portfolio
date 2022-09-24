@@ -1,18 +1,20 @@
 :root {
   --primary-color: #272142;
   --secondary-color: bisque;
+  --primary-font: "Playfair Display", serif;
+  --secondary-font: "Poppins", serif;
 }
 
 h1 {
   color: black;
   font-weight: bold;
-  font-family: "Playfair Display", serif;
+  font-family: var(--primary-font);
 }
 
 p {
   color: black;
   font-weight: normal;
-  font-family: "Poppins", serif;
+  font-family: var(--secondary-font);
 }
 
 .hero {
@@ -29,7 +31,6 @@ p {
 .hero h2 {
   font-size: 24px;
   line-height: 36px;
-  margin: 48px;
 }
 
 .hero p {
@@ -38,11 +39,12 @@ p {
   font-weight: bold;
 }
 
-.hero a {
+.btn-branding {
   background-color: var(--primary-color);
   color: white;
   border-radius: 4px;
-  margin: 10px;
+  font-size: 18px;
+  line-height: 27px;
   padding: 15px 30px;
   width: 200px;
 }
