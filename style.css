@@ -5,10 +5,15 @@
   --secondary-font: "Poppins", serif;
 }
 
-h1 {
+h1,
+h2 {
   color: black;
   font-weight: bold;
   font-family: var(--primary-font);
+}
+
+h2 {
+  font-size: 64px;
 }
 
 p {
@@ -50,8 +55,25 @@ p {
   width: 200px;
 }
 
-.secondary-button {
+.btn-branding-outline {
+  color: red;
   background-color: white;
-  color: var(--primary-color);
   border: 1px solid var(--primary-color);
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
+  h2 {
+    font-size: 44px;
+  }
+
+  .project-description {
+    text-align: center;
+    padding: 0;
+  }
 }
