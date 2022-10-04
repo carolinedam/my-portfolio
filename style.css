@@ -18,9 +18,10 @@ h2 {
 
 p {
   color: black;
-  font-weight: normal;
+  font-weight: 100;
   font-family: var(--secondary-font);
   font-size: 16px;
+  line-height: 30px;
 }
 
 .hero {
@@ -67,6 +68,27 @@ p {
   padding: 120px 60px;
 }
 
+.about-section-content {
+  margin: 30px;
+}
+.headshot {
+  border-radius: 8px;
+}
+
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--secondary-font);
+  font-weight: bolder;
+}
+
 @media (max-width: 900px) {
   h2 {
     font-size: 44px;
@@ -75,5 +97,13 @@ p {
   .project-description {
     text-align: center;
     padding: 0;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 0px;
+  }
+  .about-section img {
+    max-width: 500px;
   }
 }
