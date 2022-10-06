@@ -38,8 +38,9 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
-    <div class="container navigation">
+    <div class="container">
       <div class="row">
         <div class="col-md-6">
         <nav class="d-flex justify-content-between">
@@ -52,9 +53,10 @@
               src="images/Logo_small.png"
               class="image-fluid d-block d-md-none logo"
             />
-          </a></div>
+          </a>
+        </div>
 
-          <div class="col-md-6">
+          <div class="col-md-6 navigation">
           <ul>
             <li class="active">
               <a href="index.html">Home</a>
@@ -63,8 +65,9 @@
             <li><a href="work.html" class="text-muted">Work</a></li>
             <li><a href="contact.html" class="text-muted">Contact</a></li>
           </ul>
+        </div>
+      </div>
         </nav>
-      </div></div>
     </div>
 
     <div class="hero">
@@ -147,13 +150,26 @@
           </div>
         </div>
       </div>
-      <footer class="contact-section d-flex justify-content-between mb-5">
+      <footer class="container contact-section d-flex justify-content-between mb-5">
         <div>
         <h4>Work Inquiry</h4>
         <p class="text-muted">Let's work together</p></div>
         <a href="mailto:caroline@gmail.com" class="btn btn-branding">Contact me</a>
       </div>
-      <a class="align-center">caroline@gmail.com</a>
+
+      <div class="container">
+        <div class="row">
+      <a href="mailto:caroline@gmail.com" class="d-flex contact-email">caroline@gmail.com</a></div>
+      
+      <div class="row d-flex justify-content-center">
+      <a href="https://github.com/carolinedam" target="_blank">
+      <i class="fa-brands fa-github contact-logos">
+      </i></a>
+      <a href="https://www.linkedin.com/in/caroline-d-ambro-47427384/" target="_blank">
+      <i class="fa-brands fa-linkedin contact-logos"></i></a>
+      <a href="mailto:caroline@gmail.com">
+      <i class="fa-sharp fa-solid fa-envelope contact-logos"></i></a>
+    </div></div>
       </footer>
     
   </body>
