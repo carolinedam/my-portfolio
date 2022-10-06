@@ -90,6 +90,33 @@ p {
   font-weight: bolder;
 }
 
+.logo {
+  margin: 0;
+  padding: 0;
+  max-height: 80px;
+}
+
+.navigation li {
+  display: flex;
+  list-style: none;
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+
+.navigation ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+.active a {
+  color: var(--primary-color);
+  font-weight: bold;
+}
 h3 {
   font-size: 24px;
   line-height: 1.5;
