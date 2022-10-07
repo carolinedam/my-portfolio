@@ -41,33 +41,35 @@
 
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-        <nav class="d-flex justify-content-between">
-          <a href="/index.html" class="d-flex">
-            <img
-              src="images/Logo.png"
-              class="image-fluid d-none d-md-block logo"
-            />
-            <img
-              src="images/Logo_small.png"
-              class="image-fluid d-block d-md-none logo"
-            />
-          </a>
-        </div>
+      <nav class="d-flex justify-content-between">
+        <a href="/index.html">
+          <img
+            src="images/Logo.png"
+            class="image-fluid d-none d-md-block logo"
+          />
+          <img
+            src="images/Logo_small.png"
+            class="image-fluid d-block d-md-none logo"
+          />
+        </a>
 
-          <div class="col-md-6 navigation">
-          <ul>
+        <ul>
+          <div class="d-flex justify-content-between nav-links mt-3">
             <li class="active">
               <a href="index.html">Home</a>
             </li>
-            <li><a href="about.html" class="text-muted">About</a></li>
-            <li><a href="work.html" class="text-muted">Work</a></li>
-            <li><a href="contact.html" class="text-muted">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-        </nav>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li>
+              <a href="work.html">Work</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+          </div>
+        </ul>
+      </nav>
     </div>
 
     <div class="hero">
@@ -150,27 +152,40 @@
           </div>
         </div>
       </div>
-      <footer class="container contact-section d-flex justify-content-between mb-5">
-        <div>
-        <h4>Work Inquiry</h4>
-        <p class="text-muted">Let's work together</p></div>
-        <a href="mailto:caroline@gmail.com" class="btn btn-branding">Contact me</a>
-      </div>
 
-      <div class="container">
-        <div class="row">
-      <a href="mailto:caroline@gmail.com" class="d-flex contact-email">caroline@gmail.com</a></div>
-      
-      <div class="row d-flex justify-content-center">
-      <a href="https://github.com/carolinedam" target="_blank">
-      <i class="fa-brands fa-github contact-logos">
-      </i></a>
-      <a href="https://www.linkedin.com/in/caroline-d-ambro-47427384/" target="_blank">
-      <i class="fa-brands fa-linkedin contact-logos"></i></a>
-      <a href="mailto:caroline@gmail.com">
-      <i class="fa-sharp fa-solid fa-envelope contact-logos"></i></a>
-    </div></div>
+      <footer>
+        <div class="contact-section d-md-flex justify-content-between mb-5">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a href="mailto:caroline@gmail.com" class="btn btn-branding"
+              >Contact me</a
+            >
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-5">
+          <a href="mailto:caroline@gmail.com" class="d-flex contact-email"
+            >caroline@gmail.com</a
+          >
+        </div>
+        <div class="contact-logos d-flex justify-content-center">
+          <a href="https://github.com/carolinedam" target="_blank">
+            <i class="fa-brands fa-github"> </i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/caroline-d-ambro-47427384/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin"> </i>
+          </a>
+          <a href="mailto:caroline@gmail.com">
+            <i class="fa-sharp fa-solid fa-envelope"></i>
+          </a>
+        </div>
       </footer>
-    
+    </div>
   </body>
 </html>
